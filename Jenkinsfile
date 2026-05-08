@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/kathik-0348/temp.git'
+                git 'https://github.com/kathik-0348/temperaturr.git'
             }
         }
 
