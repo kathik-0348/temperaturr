@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/kathik-0348/temperature.git'
+                git 'https://github.com/kathik-0348/temp.git'
             }
         }
 
@@ -23,6 +23,12 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
+        }
+    }
+
+    post {
+        always {
+            junit '**/target/surefire-reports/*.xml'
         }
     }
 }
