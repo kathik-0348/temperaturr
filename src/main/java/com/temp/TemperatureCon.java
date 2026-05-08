@@ -1,4 +1,4 @@
-package com.Temp;
+package com.temp;
 
 public class TemperatureCon {
 

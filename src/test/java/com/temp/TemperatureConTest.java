@@ -1,7 +1,9 @@
-package com.Temp;
+package com.temp;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+
+import com.temp.TemperatureCon;
 
 public class TemperatureConTest {
 
